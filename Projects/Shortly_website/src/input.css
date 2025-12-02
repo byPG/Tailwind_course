@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @import "tailwindcss";
 
 /*Instead tailwind.config.js*/
 @theme {
-  --breakpoint-*: initial; /*this override default breakpoints*/
-  --breakpoint-sm: 480px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 976px;
-  --color-blue: #1fd;
-  --color-orange-500: #ffa500; /*override the color which had this name*/
+  --font-sans: "Poppins", "sans-serif";
+  --cyan: "hsl(180, 66%, 49%)";
+  --cyanLight: "hsl(180, 66%, 69%)";
+  --darkViolet: "hsl(257, 27%, 26%)";
+  --red: "hsl(0, 87%, 67%)";
+  --grayishViolet: "hsl(257, 7%, 63%)";
+  --veryDarkBlue: "hsl(255, 11%, 22%)";
+  --veryDarkViolet: "hsl(260, 8%, 14%) ";
+  --spacing-180: 32rem;
+  --font-doto: "Doto", "sans-serif";
 }
