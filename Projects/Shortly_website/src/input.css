@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/*Instead tailwind.config.js*/
+@theme {
+  --breakpoint-*: initial; /*this override default breakpoints*/
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --color-blue: #1fd;
+  --color-orange-500: #ffa500; /*override the color which had this name*/
+}
