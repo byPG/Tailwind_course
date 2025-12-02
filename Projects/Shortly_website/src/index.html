@@ -14,11 +14,33 @@
 </head>
 
 <body>
-    <button class="bg-blue text-black font-sans">Kliknij</button>
+    <!-- Nav container -->
+    <nav class="relative container mx-auto p-6">
+        <!-- Flash container for all items -->
+        <div class="flex items-center justify-between">
+            <!-- Flex cointainer for logo/menu -->
+            <div class="flex items-center space-x-20">
+                <!-- Logo -->
+                <img src="../images/logo.svg" alt="">
+                <!-- Left menu -->
+                <div class="hidden space-x-8 font-bold lg:flex">
+                    <a href="#" class="text-grayishViolet hover:text-veryDarkViolet">Features</a>
+                    <a href="#" class="text-grayishViolet hover:text-veryDarkViolet">Pricing</a>
+                    <a href="#" class="text-grayishViolet hover:text-veryDarkViolet">Resources</a>
+                </div>
+            </div>
+            <!-- Right buttons menu -->
+            <div class="hidden items-center space-x-6 font-bold text-grayishViolet lg:flex">
+                <div class="hover:text-veryDarkViolet">Login</div>
+                <a href="#" class="px-8 py-3 font-bold">Sign up</a>
+            </div>
 
-    <h1 class="text-3xl font-bold underline bg-amber-200">
-        Hello world!
-    </h1>
+            <!-- to do Hamburger menu -->
+        </div>
+
+        <!-- to do Mobile menu -->
+    </nav>
+
 </body>
 
 </html>
